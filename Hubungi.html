@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="Hubungicss.css">
+</head>
+<body>
+    <!--navbar#-->
+    <header>
+        <div class="container">
+            <div class="headerlogo"><img class="logo" src="image/logo.png"></div>
+            <div id='search-box'>
+                <a href="CariLowongan.php">
+                    <form style="border-radius: 10px;" action='/search' id='search-form' method='get' target='_top'>
+                        <input id='search-text' name='q' placeholder='Masukan keyword ...' type='text'/>
+                        <button id='search-button' type='submit'>
+                            <span>Search</span>
+                        </button>
+                    </form>
+                </a>
+            </div>
+            <div class="headerlist">
+                    <a href="beranda.html">Beranda</a>
+                    <a href='#pasang'>Pasang Lowongan</a>
+                    <a href='#cari'>Cari Lowongan</a>
+                    <a href='#about'>About team</a>
+                <div class="daftar">
+                    <a href="Daftar.html">Daftar</a>
+                </div>
+                <div class="masuk">
+                    <a href="Login.html">Masuk</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="topwrapper">
+        <div class="container">
+            <h2>Masuk</h2>
+            <div class="box">
+                <div class="adminbox">
+                    <h2>Kami siap membantu anda</h2>
+                    Pilih cara yang anda inginkan. Gunakan halaman pusat bantuan yang 
+                    mencakup tanya jawab (FAQ), Telp / WA, atau hubungi kami.
+                    <table>
+                        <tr>
+                            <td><div class='img'>
+                                <img src="image/jam.jpg" alt="">
+                            </div></td>
+                            <td>Jamil (08111111111111)</td>
+                        </tr>
+                        <tr>
+                            <td><div class='img'>
+                                <img src="image/zak.jpg" alt="">
+                            </div></td>
+                            <td>Zaky (08111111111111)</td>
+                        </tr>
+                        <tr>
+                            <td><div class='img'>
+                                <img src="image/ham.jpeg" alt="">
+                            </div></td>
+                            <td>Ilham (08111111111111)</td>
+                        </tr>
+                        <tr>
+                            <td><div class='img'>
+                                <img src="image/" alt="">
+                            </div></td>
+                            <td>Dana (08111111111111)</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="FAQ">
+                    <form action="">
+                        <table>
+                            <tr>
+                                <td>
+                                    Nama  <br>
+                                    <input name="nama" type="text" required id="inp">
+                                </td>
+                                <td>
+                                    Email  <br>
+                                    <input name="email" type="text" required id="inp">
+                                </td>
+                                <td>
+                                    Ponsel  <br>
+                                    <input name="ponsel" type="text" required id="inp">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    Subject  <br>
+                                    <input name="nama" type="text" style="width: 510px;" required id="inp">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    Pesan<br>
+                                    <textarea name="Pesan" style="width:510px;height:300px" required id="inp"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="kirim"><input type="submit" name="kirim" id="kirim" value="Kirim Pesan" style="background-color: #EC9B3B; font-weight: bold; padding:10px; border-radius:5px; border:1px solid #112B3C;"></div></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <table align="center" >
+                <tr>
+                    <th align="center" rowspan="2"><div style="width:0px; height:150px;border:1px grey solid;"></div></th>
+                    <th>Tentang I Tech</th>
+                    <th align="center" rowspan="2"><div style="width:0px; height:150px;border:1px grey solid;"></div></th>   
+                    <th>Tentang kami</th>
+                    <th align="center" rowspan="2"><div style="width:0px; height:150px;border:1px grey solid;"></div></th>   
+                    <th></th>
+                    <th align="center" rowspan="2"><div style="width:0px; height:150px;border:1px grey solid;"></div></th>   
+                </tr>
+                <tr>
+                    <td width="400px" class="desk">
+                        <p> I TechHire.id merupakan web layanan penyedia lowongan pekeraan barbasis web,
+                            yang berfokus pada rekrutmen di bidang IT untuk mempermudah mencari pekerjaan
+                            dan perekrutan karyawan.
+                        </p>
+                    </td>
+                    <td>
+                <pre>
+                    <a href="">Hubungi Kami</a></li><br>
+                    <a href="">Pusat Bantuan</a></li><br>
+                    <a href="">Kebijakan dan Privasi</a>
+                </pre>
+                    </td>
+                    <td width="350px">
+                        <ul>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li><br>
+                            <p align=center>Hak Cipta © 2022 ITech.ID</p>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><hr color="grey" width="350px"></td>
+                    <td></td>
+                    <td><hr color="grey" width="300px"></td>
+                    <td></td>
+                    <td><hr color="grey" width="320px"></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</body>
+</html>
